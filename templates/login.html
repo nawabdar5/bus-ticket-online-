@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for Bus Ticket Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='log.css') }}">
+    <link rel="stylesheet" href="C:\Users\abc\Desktop\project1\static\log.css">
+</head>
+<body>
+    <form class="form" action="/" method="post">
+        <p class="title">Register for bus ticket portal</p>
+        <p class="message">Signup now and get full access to our app.</p>
+        <div class="flex">   </div>
+            <label>
+                <input required="" placeholder="" type="text" class="input" name="passenger_name">
+                <span>PASSENGERS NAME</span>
+            </label>
+
+            <label>
+                <input required="" placeholder="" type="text" class="input" name="passenger_age">
+                <span>AGE OF</span>
+            </label>
+       
+            
+        <label>
+            <input required="" placeholder="" type="email" class="input" name="email">
+            <span>Email</span>
+        </label> 
+        
+        <label>
+            <input required="" placeholder="" type="password" class="input" name="password">
+            <span>Password</span>
+        </label>
+        <label>
+            <input required="" placeholder="" type="password" class="input" name="confirm_password">
+            <span>Confirm password</span>
+        </label>
+        <button class="submit" type="submit">Submit <a href="/signin"></a></button>
+        <p class="signin">Already have an account? <a href="/signin">LOGIN</a></p>
+        <!-- The "href" attribute now points to the "/signin" route where the sign-in form is located -->
+    </form>
+</body>
+</html>

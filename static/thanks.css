@@ -1,0 +1,20 @@
+body
+{
+background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d38be088226269.5dcfdc1054465.gif"); 
+background-size: 0%;
+background-position: 0%;
+
+background-position: center;
+width: 100%;
+background-size: cover;
+align-items: center;
+align-content: center;
+background-repeat: no-repeat;
+text-shadow: wheat;
+text-orientation: inherit;
+text-shadow: rgb(4, 220, 198);
+color:white;
+font-style: oblique;
+font-weight: 200;
+font-size: large;
+}

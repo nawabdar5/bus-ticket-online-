@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Ticket Collection</title>
+  <!-- Add your CSS stylesheets here -->
+  <!-- <link rel="stylesheet" href="{{url_for('static', filename='app.css')}}"> -->
+   <link rel="stylesheet" href="{{url_for('static', filename='app.css')}}">
+  <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+  
+  <h1>Welcome to the Bus Ticket Collection</h1>
+  
+  <form action="/app" method="post">
+    <label for="origin">Origin:</label>
+    <input type="text" name="origin" required><br>
+    <label for="destination">Destination:</label>
+    <input type="text" name="destination" required><br>
+    <label for="date_of_travel">Date of Travel:</label>
+    <input type="date" name="date_of_travel" required><br>
+    <label for="number_of_passengers">Number of Passengers:</label>
+    <input type="number" min="1" max="40" name="number_of_passengers" required><br>
+    <label for="amount">Amount:</label>
+    <input type="number" name="amount" required><br>
+    <input  type="submit" value="Submit" >
+    <a href="thanks.html"></a>
+    <input type="reset" name="Reset">
+    <!-- <img src="https://i.gifer.com/WZlq.gif" alt="logo"width=80% height="40%"> -->
+  </form>
+</body>
+
+</html>
